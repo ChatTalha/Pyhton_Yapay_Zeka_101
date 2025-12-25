@@ -1,0 +1,64 @@
+# Yazılıma İlk Adım: Python, Algoritmalar ve Bilinmesi Gereken Temeller 🚀
+
+Merhaba! 👋 Yazılım dünyasına adım attığım bu dönemde, öğrendiğim teknik kavramları paylaşarak pekiştirmek istedim. Bu yazıda; Python’un popülerliğinden algoritma mantığına kadar temel bir rehber hazırladım.
+
+> **✍️ Not:** Bu makale orijinal olarak [Medium](https://medium.com/@talha.isliyenn/yazılıma-i̇lk-adım-python-algoritmalar-ve-bilinmesi-gereken-temeller-f33caeed9798) üzerinde yayınlanmıştır.
+
+---
+
+## 1. Python Nedir?
+Python; öğrenmesi kolay, okunabilirliği yüksek ve çok güçlü bir programlama dilidir. 
+
+### Python’un Tarihçesi
+Python ismi o korkutucu yılandan gelmiyor! 🐍 Dilin yaratıcısı **Guido van Rossum**, ismini sevdiği İngiliz komedi grubu *"Monty Python’s Flying Circus"*tan esinlenerek koydu. 1991 yılında yayınlanan Python, "sade ve anlaşılır" olma felsefesiyle geliştirildi.
+
+### Neden Bu Kadar Popüler?
+* **Yapay Zeka ve Veri Bilimi:** ChatGPT gibi modellerin ana dilidir.
+* **Otomasyon:** Tekrar eden işleri tek tıkla halleder.
+* **Siber Güvenlik:** Ağ yönetimi ve güvenlikte vazgeçilmezdir.
+
+---
+
+## 2. Algoritma Nedir?
+Algoritma, bir problemi çözmek için izlenen, adım adım tasarlanmış yoldur. Bilgisayarlara her adımı en ince detayına kadar tarif etmemiz gerekir.
+
+### ☕ Günlük Hayattan Örnek: Çay Demleme Algoritması
+1. Mutfağa git.
+2. Çaydanlığa su doldur.
+3. Ocağı yak ve suyu koy.
+4. **Kontrol Et:** Su kaynadı mı?
+    - *Hayır ise:* Beklemeye devam et.
+    - *Evet ise:* Demliğe çay koy ve kaynar suyu ekle.
+5. 15 dakika demlenmesini bekle.
+6. Servis yap.
+
+---
+
+## 3. Derleyici (Compiler) ve Yorumlayıcı (Interpreter)
+Bilgisayarın bizim kodumuzu anlaması için bir "çevirmen" gerekir:
+
+* **Derleyici (Compiler):** Kodun tamamını tek seferde okur ve bir dosyaya (.exe gibi) dönüştürür. (Örn: Bir kitabın tamamını çevirmek).
+* **Yorumlayıcı (Interpreter):** Kodu satır satır okur ve anında çalıştırır. (Örn: Turistin yanındaki tercüman).
+
+**Python yorumlanan (interpreted) bir dildir.** Bu sayede hata ayıklamak çok daha hızlıdır.
+
+---
+
+## 4. Veri Tipleri (Data Types)
+Bilgisayarlar verileri farklı kutularda saklar:
+
+| Veri Tipi | Açıklama | Örnek |
+| :--- | :--- | :--- |
+| **String (str)** | Metin verileri | `"Merhaba Dünya"` |
+| **Integer (int)** | Tam sayılar | `22`, `-5` |
+| **Float** | Ondalıklı sayılar | `3.14`, `1.68` |
+| **Boolean (bool)** | Mantıksal değerler | `True`, `False` |
+
+### 💻 Python Kod Örneği:
+```python
+isim = "Zeynep"      # String
+yas = 22             # Integer
+boy = 1.68           # Float
+ogrenci_mi = True    # Boolean
+
+print(type(boy))     # Çıktı: <class 'float'>
